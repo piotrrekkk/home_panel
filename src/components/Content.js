@@ -8,7 +8,7 @@ class Content extends React.Component {
 
   constructor(props) {
     super(props);
-    this.PATH = 'http://192.168.1.108:8081/dht11';
+    this.PATH = 'http://192.168.1.108:3000/dht11';
 
     this.state = {
       values: {}
