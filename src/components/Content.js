@@ -30,8 +30,8 @@ class Content extends React.Component {
       .then(values => {
         this.setState({
           values: values
-        })
-      })
+        });
+      });
   }
 
   render() {

@@ -5,10 +5,6 @@ class TemperatureCard extends DetectorCard {
     super(props);
   }
 
-  componentDidMount() {
-    this.minmaxvalues = '1234324';
-  }
-
   getTitle() {
     return `Temp: ${this.getLastValue('temperature')}°C`;
   }

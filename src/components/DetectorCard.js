@@ -9,6 +9,7 @@ import {
 import FlatButton from 'material-ui/FlatButton';
 
 class DetectorCard extends React.Component {
+
   constructor(props) {
     super(props);
   }
@@ -46,5 +47,10 @@ class DetectorCard extends React.Component {
     );
   }
 }
+
+DetectorCard.propTypes = {
+  values: React.PropTypes.string.isRequired
+};
+
 
 export default DetectorCard;
